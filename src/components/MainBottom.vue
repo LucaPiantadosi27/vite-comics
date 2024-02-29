@@ -38,9 +38,9 @@ export default {
     color: white;
     display: flex;
     background-color: var(--menu-active);
-    min-height: 150px;
+    min-height: 152px;
     & .image-item {
-        gap: 15px;
+        gap: 20px;
         margin-left: 50px;
         display: flex;
         flex-wrap: nowrap;

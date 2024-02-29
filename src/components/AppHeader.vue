@@ -40,11 +40,11 @@ header {
         width: 100%;
     }
     & ul {
-        gap: 18px;
+        gap: 20px;
         list-style: none;
         display: flex;
         & li {
-            margin-right: 15px;
+            margin-right: 20px;
             & a {
                 text-decoration: none;
                 font-size: smaller;
