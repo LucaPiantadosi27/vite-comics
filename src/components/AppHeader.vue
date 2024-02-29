@@ -10,9 +10,9 @@ export default {
             <img src="/img-general/img/dc-logo.png" alt="Logo DC">
         </div>
         <nav>
-            <ul class="main_menu">
+            <ul class="top-menu">
                 <li><a href="#">CHARACTERS</a></li>
-                <li><a href="#" class="active">COMICS</a></li>
+                <li><a href="#" class="underlined">COMICS</a></li>
                 <li><a href="#">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
                 <li><a href="#">GAMES</a></li>
@@ -31,6 +31,7 @@ export default {
 <style scoped>
 header {
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     padding: 10px 12rem;
@@ -39,6 +40,7 @@ header {
         width: 100%;
     }
     & ul {
+        gap: 18px;
         list-style: none;
         display: flex;
         & li {
@@ -49,7 +51,7 @@ header {
                 font-weight: bold;
                 color: var(--menu-text);
             }
-            & a.active {
+            & a.underlined{
                 color: var(--menu-active);
                 text-decoration: none;
                 border-bottom: 5px solid var(--menu-active);

@@ -4,14 +4,17 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Open Sans', sans-serif;
-}
 
+/* colours */
 :root {
-  --menu-active: #0282f9;
-  --menu-text: #6b6d72;
-  --color-footer: #303030;
-  --footer-menu-text: #71766c;
-
+  --menu-active: rgb(2, 130, 249);
+  --menu-text: rgb(107, 109, 114);
+  --color-footer:rgb(48, 48, 48) ;
+  --footer-menu-text: rgb(121, 121, 121);
 }
+
+/* font */
+body {
+  font-family: sans-serif;
+}
+
