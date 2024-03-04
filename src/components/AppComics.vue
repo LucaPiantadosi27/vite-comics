@@ -119,14 +119,14 @@ export default {
 }
 .btn-container {
     text-align: center;
-    // padding: 24px 0;
-    
+    padding: 24px 0;
     
 }
 .container{
     color: white;
     background-color:  rgb(28, 28, 28);
-    
+
+  
 }
 h2 {
     display: inline-block;
@@ -143,7 +143,7 @@ h2 {
 .btn-primary {
     margin-bottom: 10px;
     color: white;
-     background-color: rgb(2, 130, 249);
+    background-color: rgb(2, 130, 249);
     border-color: var(--menu-active);
 
     padding: 8px 48px;

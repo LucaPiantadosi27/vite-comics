@@ -49,7 +49,7 @@ export default {
         & img {
             
             width: 50px;
-            height: 60px;
+            height: 50px;
         }
         & .image-caption {
             font-size: small;

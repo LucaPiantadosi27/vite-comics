@@ -7,6 +7,7 @@
 
 /* colours */
 :root {
+  font-family:font-family: sans-serif; 
   --menu-active: rgb(2, 130, 249);
   --menu-text: rgb(107, 109, 114);
   --color-footer:rgb(48, 48, 48) ;
