@@ -27,11 +27,6 @@ export default {
 
     <main>
 
-        <div class="main-top">
-
-            <p> --&gt; Content goes here &lt;-- </p>
-
-        </div>
 
         <AppMainBottom></AppMainBottom>
 

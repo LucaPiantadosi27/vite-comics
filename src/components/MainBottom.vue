@@ -34,6 +34,7 @@ export default {
 
 <style scoped>
 .main-bottom {
+    
     padding: 1rem 12rem;
     color: white;
     display: flex;
